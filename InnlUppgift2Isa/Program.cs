@@ -19,10 +19,6 @@ namespace InnlUppgift2Isa
             GameWorld world = new GameWorld(50, 20);
             ConsoleRenderer renderer = new ConsoleRenderer(world);
 
-            // Alla objekt som skapas in i listan i GameWorld
-            //Walls wall = new Walls();
-            //world.getGameObjects.Add(wall);
-
             Player player = new Player();
             world.getGameObjects.Add(player);
 

@@ -24,39 +24,16 @@ namespace InnlUppgift2Isa
         /// </summary>
         public void Render()
         {
-            //Rita upp väggar
-            /*foreach (GameObject walls in world.getGameObjects)
+            Walls walls = new Walls();
+            world.getGameObjects.Add(walls);
+            foreach (GameObject gameObject in world.getGameObjects)
             {
-                if (walls is Walls)
+                if (gameObject is Walls)
                 {
-                    int wallWidth = 47;
-                    int wallHeight = 19;
-                    // ritar upp väggen på toppen
-                    for (int i = 1; i <= wallWidth; i++)
-                    {
-                        Console.SetCursorPosition(i, 1);
-                        Console.Write(walls.Renderer);
-                    }
-                    // ritar upp väggen på vänster sida
-                    for (int i = 1; i <= wallHeight; i++)
-                    {
-                        Console.SetCursorPosition(1, i);
-                        Console.Write(walls.Renderer);
-                    }
-                    // ritar upp väggen på botten
-                    for (int i = 1; i < wallWidth; i++)
-                    {
-                        Console.SetCursorPosition(i, wallHeight);
-                        Console.Write(walls.Renderer);
-                    }
-                    // ritar upp väggen på höger sida
-                    for (int i = 1; i < wallHeight; i++)
-                    {
-                        Console.SetCursorPosition(wallWidth, i);
-                        Console.Write(walls.Renderer);
-                    }
+                    Console.SetCursorPosition(walls.CurrentPosition.X, walls.CurrentPosition.Y);
+                    Console.Write(walls.Renderer);
                 }
-            }*/
+            }
 
             foreach (GameObject gameObject in world.getGameObjects)
             {

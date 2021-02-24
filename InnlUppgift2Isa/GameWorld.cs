@@ -66,6 +66,16 @@ namespace InnlUppgift2Isa
             {
                 if (player is Player)
                 {
+                    foreach (GameObject walls in getGameObjects)
+                    {
+                        if (walls is Walls)
+                        {
+                            if (player.CurrentPosition == walls.CurrentPosition)
+                            {
+                                GameOverScreen(msSleep);
+                            }
+                        }
+                    }
                     // Kollar om spelaren korckar i väggen isåfall Starta om spelet spelet
                     if (player.CurrentPosition.X < 0)
                     {

@@ -8,5 +8,10 @@ namespace InnlUppgift2Isa
     {
         public char Renderer { get => '&'; }
 
+        public Tail()
+        {
+
+        }
+
     }
 }
