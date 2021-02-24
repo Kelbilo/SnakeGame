@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InnlUppgift2Isa", "InnlUppgift2Isa\InnlUppgift2Isa.csproj", "{0A38E3E6-F832-4FA4-9A15-E9214A171FEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnlUppgift2IsaTests2", "InnlUppgift2IsaTests2\InnlUppgift2IsaTests2.csproj", "{661BE1A0-0FC6-4E21-BCD3-FA40D4B6D814}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A38E3E6-F832-4FA4-9A15-E9214A171FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A38E3E6-F832-4FA4-9A15-E9214A171FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A38E3E6-F832-4FA4-9A15-E9214A171FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A38E3E6-F832-4FA4-9A15-E9214A171FEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{661BE1A0-0FC6-4E21-BCD3-FA40D4B6D814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{661BE1A0-0FC6-4E21-BCD3-FA40D4B6D814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{661BE1A0-0FC6-4E21-BCD3-FA40D4B6D814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{661BE1A0-0FC6-4E21-BCD3-FA40D4B6D814}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F52F097D-C18A-468A-813E-1F6ACF9CF599}
+	EndGlobalSection
+EndGlobal
