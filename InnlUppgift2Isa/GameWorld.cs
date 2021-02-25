@@ -13,8 +13,6 @@ namespace InnlUppgift2Isa
         
 
         public List<GameObject> getGameObjects = new List<GameObject>();
-        List<Tail> tail = new List<Tail>();
-        Tail tails = new Tail();
 
         public GameWorld(int w, int h)
         {
@@ -49,10 +47,10 @@ namespace InnlUppgift2Isa
                         {
                             if (player.CurrentPosition == food.CurrentPosition)
                             {
+                                Tail tail = new Tail(player.CurrentPosition.X, player.CurrentPosition.Y);
                                 getGameObjects.Remove(food);
                                 score++;
                                 GenerateFood();
-                                tail.Add(tails);
                                 break;
                             }
                         }

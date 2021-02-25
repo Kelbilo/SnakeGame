@@ -12,10 +12,13 @@ namespace InnlUppgift2Isa
         // IMovable interface implementation
         public Direction GetDirection { get; set; }
 
+        List<Tail> tailList = new List<Tail>();
+
         public Player()
         {
             CurrentPosition = new Position(15, 10);
         }
+
         /// <summary>
         /// Player Update för vilken direction som player ska färdas på
         /// </summary>
