@@ -24,11 +24,10 @@ namespace InnlUppgift2Isa
         /// </summary>
         public void Render()
         {
-            Walls walls = new Walls();
-            world.getGameObjects.Add(walls);
-            foreach (GameObject gameObject in world.getGameObjects)
+
+            foreach (GameObject walls in world.getGameObjects)
             {
-                if (gameObject is Walls)
+                if (walls is Walls)
                 {
                     Console.SetCursorPosition(walls.CurrentPosition.X, walls.CurrentPosition.Y);
                     Console.Write(walls.Renderer);

@@ -7,12 +7,12 @@ namespace InnlUppgift2Isa
     public class Player : GameObject, IMovable, IRenderable
     {
         // IRenderable interface implementation
-        public override char Renderer { get => '&'; }
+        public override char Renderer { get => '☺'; }
 
         // IMovable interface implementation
         public Direction GetDirection { get; set; }
 
-        List<Tail> tailList = new List<Tail>();
+        public List<Tail> tailList = new List<Tail>();
 
         public Player()
         {
@@ -24,6 +24,9 @@ namespace InnlUppgift2Isa
         /// </summary>
         public override void Update()
         {
+            tailList.Add(new Tail(CurrentPosition.X, CurrentPosition.Y));
+            tailList.RemoveAt(0);
+
             switch (GetDirection)
             {
                 case Direction.Up:

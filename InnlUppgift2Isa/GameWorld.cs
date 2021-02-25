@@ -7,10 +7,11 @@ namespace InnlUppgift2Isa
 {
     public class GameWorld : Program
     {
+
         public int height;
         public int width;
         public int score;
-        
+
 
         public List<GameObject> getGameObjects = new List<GameObject>();
 
@@ -27,7 +28,6 @@ namespace InnlUppgift2Isa
             Food food = new Food();
             getGameObjects.Add(food);
         }
-        
 
         public void Update()
         {
@@ -35,6 +35,7 @@ namespace InnlUppgift2Isa
             {
                 gameObject.Update();
             }
+
 
 
             foreach (GameObject player in getGameObjects)
@@ -47,7 +48,6 @@ namespace InnlUppgift2Isa
                         {
                             if (player.CurrentPosition == food.CurrentPosition)
                             {
-                                Tail tail = new Tail(player.CurrentPosition.X, player.CurrentPosition.Y);
                                 getGameObjects.Remove(food);
                                 score++;
                                 GenerateFood();
@@ -74,8 +74,8 @@ namespace InnlUppgift2Isa
                             }
                         }
                     }
-                    // Kollar om spelaren korckar i väggen isåfall Starta om spelet spelet
-                    if (player.CurrentPosition.X < 0)
+                    // Kommenterade  ut detta då ovan räckte
+                    /*if (player.CurrentPosition.X < 0)
                     {
                         GameOverScreen(msSleep);
                     }
@@ -90,7 +90,7 @@ namespace InnlUppgift2Isa
                     else if (player.CurrentPosition.Y >= height)
                     {
                         GameOverScreen(msSleep);
-                    }
+                    }*/
                 }
             }
         }

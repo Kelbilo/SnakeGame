@@ -13,8 +13,8 @@ namespace InnlUppgift2Isa
             // Slumpmässiga koordinater for food objektet
             Random random = new Random();
 
-            int posX = random.Next(2, 46);
-            int posY = random.Next(2, 18);
+            int posX = random.Next(2, 48);
+            int posY = random.Next(3, 18);
 
             CurrentPosition = new Position(posX, posY);
         }

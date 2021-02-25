@@ -25,6 +25,27 @@ namespace InnlUppgift2Isa
             Food food = new Food();
             world.getGameObjects.Add(food);
 
+            // Topp väggar
+            for (int i = 1; i < world.width -1; i++)
+            {
+                world.getGameObjects.Add(new Walls(i, 1));
+            }
+            // Botten väggar
+            for (int i = 1; i < world.width -1; i++)
+            {
+                world.getGameObjects.Add(new Walls(i, world.height -1));
+            }
+            // Vänster väggar
+            for (int i = 2; i < world.height -1; i++)
+            {
+                world.getGameObjects.Add(new Walls(1, i));
+            }
+            // Höger Väggar
+            for (int i = 2; i < world.height -1; i++)
+            {
+                world.getGameObjects.Add(new Walls(world.width -2, i));
+            }
+
 
             // Huvudloopen
             bool running = true;
