@@ -4,20 +4,16 @@ using System.Text;
 
 namespace InnlUppgift2Isa
 {
-    public class Tail : GameObject, IRenderable
+    public class Tail : IRenderable
     {
-        public override char Renderer { get => '֍'; }
+        public char Renderer { get => 'X'; }
 
+        public Position CurrentPosition;
 
         public Tail(int posX, int posY)
         {
             CurrentPosition.X = posX;
             CurrentPosition.Y = posY;
-        }
-
-        public override void Update()
-        {
-
         }
     }
 }

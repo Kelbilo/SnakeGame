@@ -36,17 +36,31 @@ namespace InnlUppgift2Isa
 
             foreach (GameObject gameObject in world.getGameObjects)
             {
+                
                 // Ritar upp spelvärlden(spelaren, maten, väggarna)
                 if (gameObject is IRenderable)
                 {
                     Console.SetCursorPosition(gameObject.CurrentPosition.X, gameObject.CurrentPosition.Y);
                     Console.Write(gameObject.Renderer);
                     Console.CursorVisible = false;
+                    // Ritar upp svansen
+                    /*if (gameObject is Player)
+                    {
+                        var player = gameObject as Player;
+                        foreach (Tail tail in player.tailList)
+                        {
+                            Console.SetCursorPosition(tail.CurrentPosition.X, tail.CurrentPosition.Y);
+                            Console.Write(tail.Renderer);
+                        }
+                    }*/
                 }
             }
             // Poängräknare
             Console.SetCursorPosition(0, 0);
             Console.WriteLine($"POINTS: {world.score}");
+            // Tid innan maten byter plats
+            Console.SetCursorPosition(15, 0);
+            Console.Write($"Tid innan mat regeneation: {world.time}");
         }
         /// <summary>
         /// Den är metoden tar bort den blinkande effekten för spelet(smooth gameplay)

@@ -48,4 +48,20 @@ namespace InnlUppgift2Isa.Tests
             // Gjorde dessa tester visste inte vilka mer tester som skulle kunna köras
         }
     }
+
+    [TestClass()]
+    public class PlayerTest
+    {
+        [TestMethod()]
+        public void PlayerDirectionTest()
+        {
+            Player player = new Player();
+            player.CurrentPosition.X = 15;
+            player.CurrentPosition.Y = 10;
+            player.GetDirection = Direction.Up;
+            player.Update();
+            // Resultatet ska bli 9 eftersom up är - på y-axeln
+            Assert.AreEqual(player.CurrentPosition.Y, 9);
+        }
+    }
 }

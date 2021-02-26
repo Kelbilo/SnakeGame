@@ -12,7 +12,7 @@ namespace InnlUppgift2Isa
         // IMovable interface implementation
         public Direction GetDirection { get; set; }
 
-        public List<Tail> tailList = new List<Tail>();
+        //public List<Tail> tailList = new List<Tail>();
 
         public Player()
         {
@@ -24,8 +24,8 @@ namespace InnlUppgift2Isa
         /// </summary>
         public override void Update()
         {
-            tailList.Add(new Tail(CurrentPosition.X, CurrentPosition.Y));
-            tailList.RemoveAt(0);
+            //tailList.Add(new Tail(CurrentPosition.X, CurrentPosition.Y));
+            //tailList.RemoveAt(0);
 
             switch (GetDirection)
             {

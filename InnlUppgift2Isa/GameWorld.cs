@@ -5,13 +5,13 @@ using System.Threading;
 
 namespace InnlUppgift2Isa
 {
-    public class GameWorld : Program
+    public class GameWorld
     {
 
         public int height;
         public int width;
         public int score;
-
+        public int time = 20;
 
         public List<GameObject> getGameObjects = new List<GameObject>();
 
@@ -31,13 +31,12 @@ namespace InnlUppgift2Isa
 
         public void Update()
         {
+            time--;
             foreach (GameObject gameObject in getGameObjects)
             {
+
                 gameObject.Update();
             }
-
-
-
             foreach (GameObject player in getGameObjects)
             {
                 if (player is Player)
@@ -48,8 +47,18 @@ namespace InnlUppgift2Isa
                         {
                             if (player.CurrentPosition == food.CurrentPosition)
                             {
+                                // Försökte mig på tail men kunde inte lösa det utan kod jag inte förstod
+                                // var playerTail = player as Player;
+                                // playerTail.tailList.Add(new Tail(player.CurrentPosition.X, playerTail.CurrentPosition.Y));
+                                PlayerOnFood(food);
+                                time = 20;
+                                break;
+                            }
+                            // Svårare mat, efter 20 uppdateringar i Program loopen byt position
+                            else if (time == 0)
+                            {
+                                time = 20;
                                 getGameObjects.Remove(food);
-                                score++;
                                 GenerateFood();
                                 break;
                             }
@@ -94,6 +103,14 @@ namespace InnlUppgift2Isa
                 }
             }
         }
+
+        private void PlayerOnFood(GameObject food)
+        {
+            getGameObjects.Remove(food);
+            score++;
+            GenerateFood();
+        }
+
         /// <summary>
         /// metdoen visas körs efter spelaren krockat och visar poäng 3 sekunder innan spelet startar om
         /// </summary>
