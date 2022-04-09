@@ -11,3 +11,17 @@ C:\Users\isa_A\Desktop\C# fördjupning\Uppgift 2\InnlUppgift2Isa\InnlUppgift2Isa
 C:\Users\isa_A\Desktop\C# fördjupning\Uppgift 2\InnlUppgift2Isa\InnlUppgift2Isa\obj\Debug\netcoreapp3.1\InnlUppgift2Isa.dll
 C:\Users\isa_A\Desktop\C# fördjupning\Uppgift 2\InnlUppgift2Isa\InnlUppgift2Isa\obj\Debug\netcoreapp3.1\InnlUppgift2Isa.pdb
 C:\Users\isa_A\Desktop\C# fördjupning\Uppgift 2\InnlUppgift2Isa\InnlUppgift2Isa\obj\Debug\netcoreapp3.1\InnlUppgift2Isa.genruntimeconfig.cache
+C:\Users\isa_A\source\repos\SnakeGame\InnlUppgift2Isa\bin\Debug\netcoreapp3.1\InnlUppgift2Isa.exe
+C:\Users\isa_A\source\repos\SnakeGame\InnlUppgift2Isa\bin\Debug\netcoreapp3.1\InnlUppgift2Isa.deps.json
+C:\Users\isa_A\source\repos\SnakeGame\InnlUppgift2Isa\bin\Debug\netcoreapp3.1\InnlUppgift2Isa.runtimeconfig.json
+C:\Users\isa_A\source\repos\SnakeGame\InnlUppgift2Isa\bin\Debug\netcoreapp3.1\InnlUppgift2Isa.runtimeconfig.dev.json
+C:\Users\isa_A\source\repos\SnakeGame\InnlUppgift2Isa\bin\Debug\netcoreapp3.1\InnlUppgift2Isa.dll
+C:\Users\isa_A\source\repos\SnakeGame\InnlUppgift2Isa\bin\Debug\netcoreapp3.1\InnlUppgift2Isa.pdb
+C:\Users\isa_A\source\repos\SnakeGame\InnlUppgift2Isa\obj\Debug\netcoreapp3.1\InnlUppgift2Isa.csproj.AssemblyReference.cache
+C:\Users\isa_A\source\repos\SnakeGame\InnlUppgift2Isa\obj\Debug\netcoreapp3.1\InnlUppgift2Isa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isa_A\source\repos\SnakeGame\InnlUppgift2Isa\obj\Debug\netcoreapp3.1\InnlUppgift2Isa.AssemblyInfoInputs.cache
+C:\Users\isa_A\source\repos\SnakeGame\InnlUppgift2Isa\obj\Debug\netcoreapp3.1\InnlUppgift2Isa.AssemblyInfo.cs
+C:\Users\isa_A\source\repos\SnakeGame\InnlUppgift2Isa\obj\Debug\netcoreapp3.1\InnlUppgift2Isa.csproj.CoreCompileInputs.cache
+C:\Users\isa_A\source\repos\SnakeGame\InnlUppgift2Isa\obj\Debug\netcoreapp3.1\InnlUppgift2Isa.dll
+C:\Users\isa_A\source\repos\SnakeGame\InnlUppgift2Isa\obj\Debug\netcoreapp3.1\InnlUppgift2Isa.pdb
+C:\Users\isa_A\source\repos\SnakeGame\InnlUppgift2Isa\obj\Debug\netcoreapp3.1\InnlUppgift2Isa.genruntimeconfig.cache

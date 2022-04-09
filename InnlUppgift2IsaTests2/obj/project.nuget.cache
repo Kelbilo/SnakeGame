@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ae+1y28aEOeBvE6WGqfTmFE4ETNCpI76VDQrmuQ3JezgGP/09ucC1Mc3eB1OQ5EFAO1d/3qH64oREfzwrWd4Cw==",
+  "dgSpecHash": "ReH3r4AX3YW506OhV3J90f+VXKTWUSxlrmdoREIyuy4/8R5wumOMkt+/m8jw/nROgKhS3I4GXWbxRR5glpSLOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\isa_A\\Desktop\\C# fördjupning\\Uppgift 2\\InnlUppgift2Isa\\InnlUppgift2IsaTests2\\InnlUppgift2IsaTests2.csproj",
+  "projectFilePath": "C:\\Users\\isa_A\\source\\repos\\SnakeGame\\InnlUppgift2IsaTests2\\InnlUppgift2IsaTests2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\isa_A\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\isa_A\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",

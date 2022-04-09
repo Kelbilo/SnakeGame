@@ -11,5 +11,6 @@ namespace InnlUppgift2Isa
         public abstract char Renderer { get; }
 
         public abstract void Update();
+        // Test
     }
 }

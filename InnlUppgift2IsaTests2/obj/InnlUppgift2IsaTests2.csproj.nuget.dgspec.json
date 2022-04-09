@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\isa_A\\Desktop\\C# fördjupning\\Uppgift 2\\InnlUppgift2Isa\\InnlUppgift2IsaTests2\\InnlUppgift2IsaTests2.csproj": {}
+    "C:\\Users\\isa_A\\source\\repos\\SnakeGame\\InnlUppgift2IsaTests2\\InnlUppgift2IsaTests2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\isa_A\\Desktop\\C# fördjupning\\Uppgift 2\\InnlUppgift2Isa\\InnlUppgift2IsaTests2\\InnlUppgift2IsaTests2.csproj": {
+    "C:\\Users\\isa_A\\source\\repos\\SnakeGame\\InnlUppgift2IsaTests2\\InnlUppgift2IsaTests2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isa_A\\Desktop\\C# fördjupning\\Uppgift 2\\InnlUppgift2Isa\\InnlUppgift2IsaTests2\\InnlUppgift2IsaTests2.csproj",
+        "projectUniqueName": "C:\\Users\\isa_A\\source\\repos\\SnakeGame\\InnlUppgift2IsaTests2\\InnlUppgift2IsaTests2.csproj",
         "projectName": "InnlUppgift2IsaTests2",
-        "projectPath": "C:\\Users\\isa_A\\Desktop\\C# fördjupning\\Uppgift 2\\InnlUppgift2Isa\\InnlUppgift2IsaTests2\\InnlUppgift2IsaTests2.csproj",
+        "projectPath": "C:\\Users\\isa_A\\source\\repos\\SnakeGame\\InnlUppgift2IsaTests2\\InnlUppgift2IsaTests2.csproj",
         "packagesPath": "C:\\Users\\isa_A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isa_A\\Desktop\\C# fördjupning\\Uppgift 2\\InnlUppgift2Isa\\InnlUppgift2IsaTests2\\obj\\",
+        "outputPath": "C:\\Users\\isa_A\\source\\repos\\SnakeGame\\InnlUppgift2IsaTests2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\isa_A\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\isa_A\\Desktop\\C# fördjupning\\Uppgift 2\\InnlUppgift2Isa\\InnlUppgift2Isa\\InnlUppgift2Isa.csproj": {
-                "projectPath": "C:\\Users\\isa_A\\Desktop\\C# fördjupning\\Uppgift 2\\InnlUppgift2Isa\\InnlUppgift2Isa\\InnlUppgift2Isa.csproj"
+              "C:\\Users\\isa_A\\source\\repos\\SnakeGame\\InnlUppgift2Isa\\InnlUppgift2Isa.csproj": {
+                "projectPath": "C:\\Users\\isa_A\\source\\repos\\SnakeGame\\InnlUppgift2Isa\\InnlUppgift2Isa.csproj"
               }
             }
           }
@@ -76,21 +80,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\isa_A\\Desktop\\C# fördjupning\\Uppgift 2\\InnlUppgift2Isa\\InnlUppgift2Isa\\InnlUppgift2Isa.csproj": {
+    "C:\\Users\\isa_A\\source\\repos\\SnakeGame\\InnlUppgift2Isa\\InnlUppgift2Isa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isa_A\\Desktop\\C# fördjupning\\Uppgift 2\\InnlUppgift2Isa\\InnlUppgift2Isa\\InnlUppgift2Isa.csproj",
+        "projectUniqueName": "C:\\Users\\isa_A\\source\\repos\\SnakeGame\\InnlUppgift2Isa\\InnlUppgift2Isa.csproj",
         "projectName": "InnlUppgift2Isa",
-        "projectPath": "C:\\Users\\isa_A\\Desktop\\C# fördjupning\\Uppgift 2\\InnlUppgift2Isa\\InnlUppgift2Isa\\InnlUppgift2Isa.csproj",
+        "projectPath": "C:\\Users\\isa_A\\source\\repos\\SnakeGame\\InnlUppgift2Isa\\InnlUppgift2Isa.csproj",
         "packagesPath": "C:\\Users\\isa_A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isa_A\\Desktop\\C# fördjupning\\Uppgift 2\\InnlUppgift2Isa\\InnlUppgift2Isa\\obj\\",
+        "outputPath": "C:\\Users\\isa_A\\source\\repos\\SnakeGame\\InnlUppgift2Isa\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\isa_A\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,7 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

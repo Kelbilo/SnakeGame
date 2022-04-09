@@ -31,6 +31,7 @@ namespace InnlUppgift2Isa
 
         public void Update()
         {
+            // test
             time--;
             foreach (GameObject gameObject in getGameObjects)
             {
@@ -51,13 +52,13 @@ namespace InnlUppgift2Isa
                                 // var playerTail = player as Player;
                                 // playerTail.tailList.Add(new Tail(player.CurrentPosition.X, playerTail.CurrentPosition.Y));
                                 PlayerOnFood(food);
-                                time = 20;
+                                time = 50;
                                 break;
                             }
                             // Svårare mat, efter 20 uppdateringar i Program loopen byt position
                             else if (time == 0)
                             {
-                                time = 20;
+                                time = 50;
                                 getGameObjects.Remove(food);
                                 GenerateFood();
                                 break;
